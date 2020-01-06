@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreToDo\\AspNetCoreTodo.csproj",
         "packagesPath": "C:\\Users\\DTige.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
+        "outputPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreToDo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Humanizer": {
+              "target": "Package",
+              "version": "[2.7.9, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
