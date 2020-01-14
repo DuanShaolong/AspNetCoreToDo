@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+  "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -9043,7 +9043,7 @@
         "Kind": "ITagHelper",
         "Name": "Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper",
         "AssemblyName": "Microsoft.AspNetCore.Mvc.Razor",
-        "Documentation": null,
+        "Documentation": "\n            <summary>\n            <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" /> implementation targeting elements containing attributes with URL expected values.\n            </summary>\n            <remarks>Resolves URLs starting with '~/' (relative to the application's 'webroot' setting) that are not\n            targeted by other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s. Runs prior to other <see cref=\"T:Microsoft.AspNetCore.Razor.TagHelpers.ITagHelper\" />s to ensure\n            application-relative URLs are resolved.</remarks>\n        ",
         "TagOutputHint": null,
         "CaseSensitive": false,
         "TagMatchingRules": [
@@ -14344,58 +14344,58 @@
   "RootNamespace": "AspNetCoreTodo",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ToDo\\AddItemPartial.cshtml",
-      "TargetPath": "Views\\ToDo\\AddItemPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ToDo\\Index.cshtml",
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ToDo\\Index.cshtml",
       "TargetPath": "Views\\ToDo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ToDo\\AddItemPartial.cshtml",
+      "TargetPath": "Views\\ToDo\\AddItemPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

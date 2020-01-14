@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
+    "C:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
+    "C:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectUniqueName": "C:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "projectName": "AspNetCoreTodo",
-        "projectPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
+        "projectPath": "C:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\AspNetCoreTodo.csproj",
         "packagesPath": "C:\\Users\\DTige.000\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DTige.000\\source\\repos\\DuanShaolong\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
+        "outputPath": "C:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
