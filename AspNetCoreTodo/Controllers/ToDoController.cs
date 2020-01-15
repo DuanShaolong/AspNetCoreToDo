@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using AspNetCoreTodo.Services;
 using AspNetCoreTodo.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;  
 
 namespace AspNetCoreTodo.Controllers
 {
@@ -14,9 +14,9 @@ namespace AspNetCoreTodo.Controllers
     public class TodoController : Controller
     {
         private readonly ITodoItemService _todoItemService;
-        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly UserManager<IdentityUser> _userManager;
         public TodoController(ITodoItemService todoItemService,
-        UserManager<ApplicationUser> userManager)
+        UserManager<IdentityUser> userManager)
         {
             _todoItemService = todoItemService;
             _userManager = userManager;
@@ -50,7 +50,10 @@ namespace AspNetCoreTodo.Controllers
             {
                 return RedirectToAction("Index");
             }
-            var successful = await _todoItemService.AddItemAsync(newItem);
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return Challenge();
+
+            var successful = await _todoItemService.AddItemAsync(newItem, currentUser);
             if (!successful)
             {
                 return BadRequest("Could not add item.");
@@ -64,7 +67,10 @@ namespace AspNetCoreTodo.Controllers
             {
                 return RedirectToAction("Index");
             }
-            var successful = await _todoItemService.MarkDoneAsync(id);
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return Challenge();
+
+            var successful = await _todoItemService.MarkDoneAsync(id, currentUser);
             if (!successful)
             {
                 return BadRequest("Could not mark item as done.");
