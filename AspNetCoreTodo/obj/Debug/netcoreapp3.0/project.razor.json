@@ -14344,6 +14344,11 @@
   "RootNamespace": "AspNetCoreTodo",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_AdminActionsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_AdminActionsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ToDo\\Index.cshtml",
       "TargetPath": "Views\\ToDo\\Index.cshtml",
       "FileKind": "mvc"
@@ -14396,6 +14401,11 @@
     {
       "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\DTige.000\\Documents\\GitHub\\AspNetCoreToDo\\AspNetCoreTodo\\Views\\ManageUsers\\Index.cshtml",
+      "TargetPath": "Views\\ManageUsers\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

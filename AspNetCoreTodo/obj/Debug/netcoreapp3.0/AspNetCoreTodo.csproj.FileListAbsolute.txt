@@ -262,3 +262,5 @@ C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netc
 C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.csproj.CopyComplete
 C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.dll
 C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\AspNetCoreTodo.pdb
+C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\Razor\Views\ManageUsers\Index.cshtml.g.cs
+C:\Users\DTige.000\Documents\GitHub\AspNetCoreToDo\AspNetCoreTodo\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_AdminActionsPartial.cshtml.g.cs
