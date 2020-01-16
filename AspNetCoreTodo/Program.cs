@@ -23,7 +23,7 @@ namespace AspNetCoreTodo
                 var services = scope.ServiceProvider;
                 try
                 {
-                    SeedData.InitializeAsync(services).Wait();
+                    SeedData.Initialize(services,"Ssa@123456").Wait();
                 }
                 catch (Exception ex)
                 {
